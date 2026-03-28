@@ -577,6 +577,86 @@ footer {
   width: 100%;
 }
 
+/* Social Share Buttons */
+.share-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 8px;
+  margin-top: 8px;
+  border-top: 1px solid var(--border-light);
+}
+
+.share-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+  color: white;
+}
+
+.share-twitter {
+  background-color: #000000;
+  font-style: normal;
+}
+
+.share-twitter:hover {
+  background-color: #333333;
+}
+
+.share-facebook {
+  background-color: #1877f2;
+  font-family: Georgia, serif;
+  font-size: 1rem;
+}
+
+.share-facebook:hover {
+  background-color: #0c5fcd;
+}
+
+.share-whatsapp {
+  background-color: #25d366;
+  font-size: 0.85rem;
+}
+
+.share-whatsapp:hover {
+  background-color: #1aaa51;
+}
+
+.share-copy {
+  background-color: var(--primary-light);
+  font-size: 0.85rem;
+}
+
+.share-copy:hover {
+  background-color: var(--primary);
+}
+
+.share-copy-success {
+  background-color: var(--success);
+}
+
 .reset-button {
   background-color: var(--border);
   color: var(--text-primary);
